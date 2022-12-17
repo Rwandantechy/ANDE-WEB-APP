@@ -1,0 +1,31 @@
+.myform{
+    max-width: fit-content;
+    background-color: white;
+    border-color: aqua;
+    margin:10px 10px 0 10px;
+    padding:20px;
+    align-self: center;
+}
+q{
+    font-family: 'Titillium';
+    color: rgb(82, 26, 236);  
+    text-align: end;  
+    margin-left:200px; 
+}
+.myheading{
+    color: black;
+     margin-left: 150px;
+
+}
+label {
+color: #0e0601;
+font-weight: bold;
+width: 300px;
+float: left;
+}
+label:after { content: ": " }
+input{
+    width: 400px;  
+    border-color: rgba(73, 75, 206, 0.795);
+    border-width: 5px;
+   }

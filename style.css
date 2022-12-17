@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: solid 1px rgb(11, 230, 164);
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: left;
+}
+#container{
+ width: 500px"
+}
+
+input[type='button'] {
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+
+input[type='text'],
+select {
+    text-align: center;
+    border: solid 1px #CCC;
+    width: auto;
+    padding: 2px 3px;
+}

@@ -1,0 +1,89 @@
+
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+body {
+	margin: 0;
+	font-size: 1.125rem;
+	color: #333;
+	background: #f8f8f8;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	font-family: 'Inter', sans-serif;
+	line-height: 1.5;
+}
+
+h1 { font-size: 3.6rem; margin: 0 0 1em;}
+
+h2 { font-size: 2.2rem; margin: 1em 0 0.5em;}
+
+form {
+	width: 100%;
+	max-width: 28rem;
+}
+
+input,
+button {
+	color: inherit;
+	border: 2px solid #666;
+	padding: .5rem;
+	font-size: 1rem;
+	background: inherit;
+	border-radius: .25rem;
+	width: 100%;
+}
+
+button,
+input[type=submit] {
+	background: #333;
+	color: #f8f8f8;
+	border-color: #333;
+	width: max-content;
+	padding: 0.5em 1em;
+	font-weight: bold;
+	margin-top: 2em;
+	font-size: 1.2rem;
+	
+	+ a {
+		margin-left: 1rem;
+		color: #555;
+	}
+}
+
+.form-group {
+	margin-bottom: 1rem;
+	
+	label {
+		display: block;
+		width: max-content;
+	}
+}
+
+.split {
+	display: grid;
+	gap: 0 1rem;
+	justify-items: start;
+	justify-content: start;
+	
+	&-2-1 {
+		grid-template-columns: 2fr 1fr;
+	}
+	
+	&-1-1 {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	&-1-2 {
+		grid-template-columns: 1fr 2fr;
+	}
+	
+	&-1-1-2 {
+		grid-template-columns: 1fr 1fr 2fr;
+	}
+}
